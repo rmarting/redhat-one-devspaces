@@ -78,7 +78,7 @@ spec:
       # 1. Prometheus Endpoint
       serverAddress: https://prometheus-k8s.openshift-monitoring.svc.cluster.local:9091      
       # 2. Metric name for KEDA
-      metricName: sesiones_inversas
+      metricName: inversed_workspaces
       # 3. Query PromQL inverse: 
       query: '2-(count(kube_pod_labels{label_controller_devfile_io_creator!=""}) or on() vector(0))'      
       # 4. Threshold
