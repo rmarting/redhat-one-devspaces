@@ -61,6 +61,15 @@ For demonstration and testing purposes, all resources are deployed in the `opens
 
 - **OpenShift Local (CRC)**: This example has been tested with the latest version of OpenShift Local (CodeReady Containers). Ensure you have CRC installed and running. (It is required enable-cluster-monitoring in CRC)
 
+```
+Configuration CRC tested
+- consent-telemetry                     : no
+- cpus                                  : 12
+- disk-size                             : 93
+- enable-cluster-monitoring             : true
+- memory                                : 30302
+```
+
 - **Cluster Admin Access**: Most of the setup commands require cluster administrator privileges.
 
 - **OpenShift CLI (oc)**: The `oc` command-line tool must be installed and configured to access your cluster.
